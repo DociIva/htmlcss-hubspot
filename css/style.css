@@ -1,0 +1,133 @@
+/*GENERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: #212121;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+    font-weight: 700;
+    color: #707f8d;
+ 
+}
+
+/*UTULITY*/
+
+/*LAYOUT*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+ /*cleafix*/
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.float-left{
+    float: left;
+}
+.float-right{
+    float: right;
+}
+.w-50{
+    width: 50%;
+}
+/*LISTE*/
+.liste-inline li {  /*da mettere ul*/
+    display: inline-block;
+    list-style: none;
+    padding: 5px;
+    color: #33475b;
+}
+.liste-inline li a{
+    font-weight: 700;
+    text-decoration: none;  
+}
+.liste-inline a{
+    color:#33475b;
+}
+
+/*BOTTONI*/
+.bottons{
+   /* display: inline-block;*/
+    min-width: 100px;
+    padding: 10px;
+    text-align: center; 
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 5px;
+}
+.bottons.bottons-orange a{ 
+    color:#fff;
+    background: #fe775a;
+    border: 1px solid transparent;
+}
+.bottons.bottons-big{
+    padding: 10px;
+}
+
+.bottom-header .fa-search:before{
+    color: #79cddc;
+}
+
+/*HEADER TOP*/
+.main-header{
+    line-height: 80px;
+    font-size: 12px;
+    background: #f4f9fd;
+    border-bottom: 1px solid #33475b;
+}
+.main-header .top-header{
+    width: 48%;
+    margin-left: 2px;
+    
+}
+.main-header .bottom-header{
+    width: 48%;
+    padding-left: 2px;
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*questo e il colore delle liste #33475b*/
