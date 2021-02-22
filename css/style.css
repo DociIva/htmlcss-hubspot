@@ -293,8 +293,9 @@ a{
 }
 /*SEZIONE LEARN*/
 .learn{
-    height: 500px;
-    background: linear-gradient(#00a9b8,#00b6ac );
+    height: 600px;
+    background: linear-gradient(#00a9b8,#00bba6);
+    margin-bottom: 50px;
 }
 .learn-text{
     text-align: center;
@@ -314,9 +315,41 @@ a{
     color: #fff;
 }
 /*4 COLONNE*/
-
-
-
+.colonne{
+    height: 200px;
+    width: max-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-bottom: 100px;
+    line-height: 50px;
+    vertical-align: middle;
+    text-align: center;
+}
+.colonne h3{
+    font-size: 35px;
+    color: #fff;
+}
+.colonne h6{
+    color: #fff;
+}
+.colonne .uno,.due,.tre,.quattro{
+    border-bottom: 1px solid white;
+    padding-bottom: 50px;  
+}
+.colonne .uno,.due,.tre{
+    border-right: 1px solid white;
+}
+.colonne .cinque,.sei,.sette,.otto{
+    padding-top: 50px;
+}
+.colonne .cinque,.sei,.sette{
+    border-right: 1px solid white;
+}
+/*SEZIONE IMMAGINI PICCOLE AZIENDE*/
+.aziende{
+    height: 300px;
+    background: violet;
+}
 
 
 
