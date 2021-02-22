@@ -29,12 +29,13 @@ h5{
     margin: 0 auto;
 }
 .container-2{
-    width: 900px;
+    width: 100%;
     margin: 0 auto;
+    background: #f4f9fd;
 }
 
 body a:hover{
-    color: yellow;
+    color: greenyellow;
     cursor: pointer;
 }
  /*cleafix*/
@@ -53,6 +54,28 @@ body a:hover{
 .w-50{
     width: 50%;
 }
+.w-25{
+    width: 25%;
+}
+.w-30{
+    width: 30%;
+}
+.w-70{
+    width: 70%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+/*CHECK-ORANGE*/
+.check-orange{
+    padding-top: 30px;
+    color:#fe775a ;
+}
+
 /*LISTE*/
 .liste-inline li {  /*da mettere ul*/
     display: inline-block;
@@ -66,30 +89,21 @@ body a:hover{
 }
 /*PARAGRAFO*/
 .paragraph{
+    line-height: 30px;
+    font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+
 }
 /*CHECK*/
-.icona{
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    margin-right: 10px;
-    vertical-align: middle;
-    text-align: center;
-    font-size: 14px;
-    color: #fe775a;
-    border: 1px solid #fe775a;
-    border-radius: 50%;
-}
 
 /*BOTTONI*/
 .bottons{
-   /* display: inline-block;*/
+   /* display: inline-block;*/    
     text-decoration: none;
     min-width: 100px;
     padding: 10px;
-    text-align: center; 
+    text-align: center;
     color: #fe775a;
     border: 1px solid #fe775a;
     border-radius: 5px;
@@ -102,11 +116,21 @@ body a:hover{
 .bottons.bottons-big {
     display: inline-block;
     padding: 15px;
-    margin-bottom: 10px;    
+    margin-bottom: 10px;      
 }
-.bottom-header .fa-search:before{
-    color: #79cddc;
+.bottons-2{
+    display: inline-block;
+    text-decoration: none;
+    min-width: 100px;
+    padding: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #fff;
+    background:#fe775a;
+    border: 1px solid transparent;
+    border-radius: 5px;
 }
+
 /*HEADER TOP*/
 .header{
     line-height: 80px;
@@ -138,7 +162,8 @@ body a:hover{
     color:yellow;
     cursor: pointer;
 }
-/*HERO*/
+
+/*HERO MAIN CONTENT*/
 .hero{
     line-height: 30px;
     height: 700px;
@@ -162,12 +187,6 @@ body a:hover{
     margin-bottom: 20px;
     font-size: 40px;
 }
-/*para da vedere di mettere nell uti*/
-/*
-.hero .paragraph{ 
-    margin-top: 20px;
-    margin-bottom: 20px;
-}*/
 /*FOOTER HERO*/
 .hero-footer{
     position:relative;
@@ -178,41 +197,35 @@ body a:hover{
     border-top: 3px solid #486b78;
     border-bottom: 3px solid #486b78;
 }
-/*CUBE TEXT - IMG*/
-.cube-text{
-    line-height: 30px;
-    height: 1000px;
-    background: #f4f9fd;
+/*SEZIONE COLORATA*/
+.box-color .cube-img{ 
+    text-align: center;
 }
-/*MAIN CUBE IMG */
-.cube-img{
-    padding-top: 150px;
-    text-align: center;  
+.box-color .cube-img img{
+     height: 150px;
+     margin-top: 100px;
 }
-.cube-img img{
-    height: 200px;
-}
-.content-main{
-    line-height: 30px;
-}
-/*FREE CRM*/
-.free-box{
-    line-height: 40px;
-    padding:30px;
-    background: #fff;   
+/*CRM*/
+.box-crm{
+    height: 300px;
+    padding: 80px;
+    background: #fff;
 }
 .free-crm{
-    width: 18%;
-    margin-left: 2%;
+    width: 20%;
 }
 .free-text{
-    width: 54%;
-    margin-left: 6%;
+    width: 70%;
+    margin-left: 10%;
 }
-
-
-
- 
+.hr{
+    position: relative;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+     
+}
   
 
 
@@ -239,4 +252,5 @@ body a:hover{
 
 
 
-/*questo e il colore delle liste #33475b*/
+
+
