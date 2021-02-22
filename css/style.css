@@ -88,6 +88,16 @@ a{
     font-weight: 700;
     text-decoration: none;  
 }
+/*LISTA NORMALE*/
+.lista{
+    height: 200px;
+    text-align: left;
+    list-style:none;
+    color: #33475b;
+}
+.lista li a {
+    text-decoration: none;
+}
 /*PARAGRAFO*/
 .paragraph{
     line-height: 30px;
