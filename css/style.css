@@ -16,7 +16,8 @@ h1,
 h2,
 h3,
 h4,
-h5{
+h5
+{
     font-weight: 700;
     color:#33475b;
 }
@@ -94,6 +95,10 @@ a{
 .liste-inline li a{
     font-weight: 700;
     text-decoration: none;  
+}
+.liste-inline-2 li{
+    display:inline-block;
+    list-style: none; 
 }
 /*LISTA NORMALE*/
 .lista{
@@ -348,11 +353,32 @@ a{
 /*SEZIONE IMMAGINI PICCOLE AZIENDE*/
 .aziende{
     height: 300px;
-    background: violet;
+    padding-top: 50px;
 }
-
-
-
+.cifra{
+    text-align: center;
+}
+.cifra{
+  width: 30%;
+  margin-right: 10%;
+}
+.cifra h2{
+    font-size: 38px;
+    padding-bottom: 30px;
+}
+.cifra p{
+  font-size: 14px;
+  line-height: 30px;
+}
+/*ICONE IMMAGINI*/
+.icone img{
+  width: 100px;
+  
+}
+.icone{
+    width: 50%;
+    margin-left: 10%;
+}
 
 
 
