@@ -9,6 +9,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     color:#212121;
+
 }
 
 h1,
@@ -27,6 +28,11 @@ h5{
     width: 1100px;
     margin: 0 auto;
 }
+.container-2{
+    width: 900px;
+    margin: 0 auto;
+}
+
 body a:hover{
     color: yellow;
     cursor: pointer;
@@ -58,7 +64,24 @@ body a:hover{
     font-weight: 700;
     text-decoration: none;  
 }
-
+/*PARAGRAFO*/
+.paragraph{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/*CHECK*/
+.icona{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    color: #fe775a;
+    border: 1px solid #fe775a;
+    border-radius: 50%;
+}
 
 /*BOTTONI*/
 .bottons{
@@ -78,15 +101,12 @@ body a:hover{
 }
 .bottons.bottons-big {
     display: inline-block;
-    padding: 10px;
-    margin-bottom: 10px;
-    
+    padding: 15px;
+    margin-bottom: 10px;    
 }
-
 .bottom-header .fa-search:before{
     color: #79cddc;
 }
-
 /*HEADER TOP*/
 .header{
     line-height: 80px;
@@ -97,32 +117,31 @@ body a:hover{
 .header .top-header{
     width: 50%;
 }
-.header .bottom-header{
+.header .right-header{
     width: 50%;
     text-align: right;
 }
 
 /*MAIN*/
-.main-header{
+.header-bottom{
     line-height: 80px;
     font-size: 12px;
     background: #fff;
 }
-.main-header .logo{
+.header-bottom .logo{
     width: 50%;  
 }
-.main-header .logo img{
+.header-bottom .logo img{
     vertical-align: middle;
-
 }
-.main-header a:hover{
+.header-bottom a:hover{
     color:yellow;
     cursor: pointer;
 }
 /*HERO*/
 .hero{
     line-height: 30px;
-    height: 480px;
+    height: 700px;
     background:#fff2ee;
     background-image:url(../img/jumbotron.png) ;
     background-size: 1000px;
@@ -136,30 +155,62 @@ body a:hover{
 .hero .text-hero{
     position: absolute;
     left: 0;
-    top: 50%; 
-    transform:translateY(-50%);
+    top: 30%; 
+    transform:translateY(-30%);
 }
 .hero .text-hero h1{
     margin-bottom: 20px;
     font-size: 40px;
 }
-/*para da devedere di mettere nell uti*/
+/*para da vedere di mettere nell uti*/
+/*
 .hero .paragraph{ 
     margin-top: 20px;
     margin-bottom: 20px;
-}
+}*/
 /*FOOTER HERO*/
 .hero-footer{
-    position:absolute;
+    position:relative;
     left: 0;
-    top: 78%;
-    transform: translateY(-50%);
-    width: 100%;
+    bottom: 6%;
     height: 100px;
     background: #afebe4;
-    border-top: 1px solid #486b78;
-    border-bottom: 1px solid #486b78;
+    border-top: 3px solid #486b78;
+    border-bottom: 3px solid #486b78;
 }
+/*CUBE TEXT - IMG*/
+.cube-text{
+    line-height: 30px;
+    height: 1000px;
+    background: #f4f9fd;
+}
+/*MAIN CUBE IMG */
+.cube-img{
+    padding-top: 150px;
+    text-align: center;  
+}
+.cube-img img{
+    height: 200px;
+}
+.content-main{
+    line-height: 30px;
+}
+/*FREE CRM*/
+.free-box{
+    line-height: 40px;
+    padding:30px;
+    background: #fff;   
+}
+.free-crm{
+    width: 18%;
+    margin-left: 2%;
+}
+.free-text{
+    width: 54%;
+    margin-left: 6%;
+}
+
+
 
  
   
