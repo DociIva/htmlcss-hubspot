@@ -298,16 +298,14 @@ a{
 }
 /*SEZIONE LEARN*/
 .learn{
-    height: 600px;
     background: linear-gradient(#00a9b8,#00bba6);
-    margin-bottom: 50px;
 }
 .learn-text{
     text-align: center;
     padding-top: 20px ;
 }
 .learn h2{
-    font-size: 20px;
+    font-size: 25px;
     padding-top: 30px;
     color: #fff;
 }
@@ -321,10 +319,9 @@ a{
 }
 /*4 COLONNE*/
 .colonne{
-    height: 200px;
+    height: 550px;
     width: max-content;
     padding-top: 50px;
-    padding-bottom: 50px;
     padding-bottom: 100px;
     line-height: 50px;
     vertical-align: middle;
@@ -352,7 +349,7 @@ a{
 }
 /*SEZIONE IMMAGINI PICCOLE AZIENDE*/
 .aziende{
-    height: 300px;
+    height: 600px;
     padding-top: 50px;
 }
 .cifra{
@@ -371,13 +368,10 @@ a{
   line-height: 30px;
 }
 /*ICONE IMMAGINI*/
-.icone img{
-  width: 100px;
-  
-}
-.icone{
-    width: 50%;
-    margin-left: 10%;
+
+.img{
+    width: 22%;
+    padding:3%
 }
 
 
