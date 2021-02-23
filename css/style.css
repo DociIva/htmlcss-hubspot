@@ -103,6 +103,16 @@ a{
     display:inline-block;
     list-style: none; 
 }
+.lista-inline-3{
+    display: inline-block;
+    list-style: none;
+    line-height: 50px;
+    color: #fff;
+}
+.lista-inline-3 a:not(.bnt-footer){
+    text-decoration: none;
+    color: #fff;
+}
 /*LISTA NORMALE*/
 .lista{
     height: 200px;
@@ -159,6 +169,16 @@ a{
     text-align: center;
     color: #fff;
     background:#fe775a;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.bnt-footer{
+    text-decoration: none;
+    min-width: 100px;
+    padding: 10px;
+    text-align: center;
+    color: #32495b;
+    background: #fff;
     border: 1px solid transparent;
     border-radius: 5px;
 }
@@ -247,6 +267,11 @@ a{
     margin-bottom: 40px;
     background: #fff;
 }
+.box-crm.sha{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 4px #888
+}
 .free-crm{
     width: 20%;
 }
@@ -273,14 +298,19 @@ a{
 }
 .prima-coll{
     text-align: center;
-    background: #fff;
-    
+    background: #fff;  
 }
 .prima-coll{
     width: 28%;
     padding: 3%;
     margin: 2%;
 }
+.prima-coll.sha{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 4px #888;
+}
+/*seconda colonna*/
 .seconda-coll{
     text-align: center;
     background: #fff;
@@ -290,6 +320,12 @@ a{
     padding: 3%;
     margin: 2%;
 }
+.seconda-coll.sha{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 4px #888;
+}
+/*terza colonna*/
 .terza-coll{
     text-align: center;
     background: #fff;
@@ -298,6 +334,11 @@ a{
     width: 28%;
     padding: 3%;
     margin: 2%;
+}
+.terza-coll.sha{
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 1px 4px #888;
 }
 /*SEZIONE LEARN*/
 .learn{
@@ -378,9 +419,6 @@ a{
     vertical-align: middle;
 }
 /*MAIN FOOTER*/
-.main-footer{
-    height: 500px;   
-}
 .start-text{
     padding-bottom: 50px;
 }
@@ -390,9 +428,21 @@ a{
    margin-bottom: 30px;
 }
 .woman-img{
-   width: 400px; 
+   width: 450px; 
    text-align: right;
 }
+/*FOOTER*/
+.footer{
+    height: 500px;
+    background: #32495b;
+    padding: 50px;
+}
+.footer h6{
+    font-size: 16px;
+    color: #fff;
+}
+
+
 
 
 
