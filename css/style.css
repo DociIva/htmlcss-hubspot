@@ -46,6 +46,9 @@ body a:hover{
 .w-50{
     width: 50%;
 }
+.w-40{
+   width: 40%;
+}
 .w-60{
     width: 60%;
 }
@@ -349,7 +352,7 @@ a{
 }
 /*SEZIONE IMMAGINI PICCOLE AZIENDE*/
 .aziende{
-    height: 600px;
+    height: 300px;
     padding-top: 50px;
 }
 .cifra{
@@ -371,10 +374,25 @@ a{
 
 .img{
     width: 22%;
-    padding:3%
+    padding:3%;
+    vertical-align: middle;
 }
-
-
+/*MAIN FOOTER*/
+.main-footer{
+    height: 500px;   
+}
+.start-text{
+    padding-bottom: 50px;
+}
+.start-text p{
+   font-size: 12px;
+   margin-top: 30px;
+   margin-bottom: 30px;
+}
+.woman-img{
+   width: 400px; 
+   text-align: right;
+}
 
 
 
