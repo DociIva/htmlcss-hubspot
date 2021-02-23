@@ -103,6 +103,16 @@ a{
     display:inline-block;
     list-style: none; 
 }
+.lista-4 li{
+  display: inline-block;
+  list-style: none;
+  padding: 5px;
+  color: #fff;
+}
+.lista-4 a{
+    color: #fff;
+    text-decoration: none;
+}
 .lista-inline-3{
     display: inline-block;
     list-style: none;
@@ -432,14 +442,41 @@ a{
    text-align: right;
 }
 /*FOOTER*/
-.footer{
-    height: 500px;
+.footer-top{
+    height: 850px;
     background: #32495b;
     padding: 50px;
+    margin-bottom: 50px;
 }
-.footer h6{
+.footer-top h6{
     font-size: 16px;
     color: #fff;
+}
+.footer-lingue{
+    height: 150px;
+    padding-top: 100px;
+    text-align: center;
+}
+.footer-lingue.lista-4{
+    text-align: center;
+}
+.loghi i{
+  padding: 15px;
+  color: #fff;
+
+}
+/*LOGO HUB*/
+.hub-logo{
+    padding-top: 20px;
+}
+
+.hub-logo p{
+   color: #fff;
+}
+/*PRIVACY*/
+.privacy .lista-4{
+    padding-top: 20px;
+    text-align: right;
 }
 
 
