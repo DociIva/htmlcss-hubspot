@@ -3,15 +3,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 body{
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
-    color:#212121;
-
+    color:#cecece;
 }
-
 h1,
 h2,
 h3,
@@ -22,6 +19,9 @@ h5
     color:#33475b;
 }
 
+a{
+    color:#33475b;
+}
 /*UTULITY*/
 
 /*LAYOUT*/
@@ -38,7 +38,6 @@ h5
     width: 900px;
     margin: 0 auto;
 }
-
 body a:hover{
     color: greenyellow;
     cursor: pointer;
@@ -58,9 +57,7 @@ body a:hover{
 .w-30{ 
     width: 30%;
 }
-.w-70{
-    width: 70%;
-}
+
 li{
     list-style: none;
 }
@@ -150,12 +147,14 @@ a{
     font-size: 18px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #33475b;
 }
 .paragraph-2{
     line-height: 30px;
     font-size: 12px;
     margin-top: 20px;
     margin-bottom: 20px;
+    color: #33475b;
 }
 /*BOTTONI*/
 .bottons{
@@ -229,6 +228,10 @@ a{
 .header-bottom a:hover{
     color:yellow;
     cursor: pointer;
+}
+.nav-right{
+    width: 50%;
+    text-align: right;
 }
 /*HERO MAIN CONTENT*/
 .hero{
@@ -319,8 +322,7 @@ a{
     background: #fff;  
 }
 .prima-coll{
-    width: 29%;
-    margin: 2%;
+    width: 30%;
 }
 .prima-coll.sha{
     border: 1px solid;
@@ -333,8 +335,9 @@ a{
     background: #fff;
 }
 .seconda-coll{
-    width: 29%;
-    margin: 2%;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 .seconda-coll.sha{
     border: 1px solid;
@@ -347,8 +350,7 @@ a{
     background: #fff;
 }
 .terza-coll{
-    width: 29%;
-    margin: 2%;
+    width: 30%;
 }
 .terza-coll.sha{
     border: 1px solid;
@@ -425,9 +427,9 @@ a{
 .cifra p{
   font-size: 14px;
   line-height: 30px;
+  color: #32495b;
 }
 /*ICONE IMMAGINI*/
-
 .img{
     width: 22%;
     padding:3%;
@@ -441,6 +443,7 @@ a{
    font-size: 12px;
    margin-top: 30px;
    margin-bottom: 30px;
+   color: #32495b;
 }
 .woman-img{
    width: 450px; 
@@ -448,10 +451,12 @@ a{
 }
 /*FOOTER*/
 .footer-top{
-    height: 850px;
     background: #32495b;
     padding: 50px;
-    margin-bottom: 50px;
+}
+.footer-top a:hover{
+   color: lightseagreen;
+   cursor: pointer;
 }
 .footer-top h6{
     font-size: 16px;
@@ -468,13 +473,11 @@ a{
 .loghi i{
   padding: 15px;
   color: #fff;
-
 }
 /*LOGO HUB*/
 .hub-logo{
     padding-top: 20px;
 }
-
 .hub-logo p{
    color: #fff;
 }
@@ -484,6 +487,21 @@ a{
     text-align: right;
 }
 /*Bottnone chat*/
+.dropup{
+    position: fixed;
+    bottom: 50px;
+    right: 15px;
+    color: #fff;
+    background:#fe775a;
+    border-color: transparent;
+    min-width: 70px;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 50%;
+}
 
 
 
