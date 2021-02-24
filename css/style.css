@@ -280,7 +280,7 @@ a{
 .box-crm.sha{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 1px 4px #888
+    box-shadow: 1px 2px #888
 }
 .free-crm{
     width: 20%;
@@ -289,11 +289,13 @@ a{
     width: 70%;
     margin-left: 10%;
 }
-.hr{
+.h2-riga-dri{
+    display: inline-block;
+}
+.coll-hr{
     position: relative;
-    top: 50%;
-    left: 70%;
-    transform: translate(-50%,-50%);
+    left: 40%;
+    transform: translateY(-15px);
     width: 50%;     
 }
 /*PRIMA COLONNA*/
@@ -312,13 +314,12 @@ a{
 }
 .prima-coll{
     width: 28%;
-    padding: 3%;
     margin: 2%;
 }
 .prima-coll.sha{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 1px 4px #888;
+    box-shadow: 1px 2px #888;
 }
 /*seconda colonna*/
 .seconda-coll{
@@ -327,13 +328,12 @@ a{
 }
 .seconda-coll{
     width: 28%;
-    padding: 3%;
     margin: 2%;
 }
 .seconda-coll.sha{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 1px 4px #888;
+    box-shadow: 1px 2px #888;
 }
 /*terza colonna*/
 .terza-coll{
@@ -342,13 +342,12 @@ a{
 }
 .terza-coll{
     width: 28%;
-    padding: 3%;
     margin: 2%;
 }
 .terza-coll.sha{
     border: 1px solid;
     padding: 10px;
-    box-shadow: 1px 4px #888;
+    box-shadow: 1px 2px #888;
 }
 /*SEZIONE LEARN*/
 .learn{
