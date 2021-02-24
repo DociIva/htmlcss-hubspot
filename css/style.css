@@ -139,7 +139,7 @@ a{
     position: absolute;
     z-index: 1;
     width: 100px;
-    padding: 10px;
+    padding: 0;
     margin: 0;
     border: 1px solid black;
     background: white;
@@ -306,6 +306,7 @@ a{
 /*PRIMA COLONNA*/
 .coll{
     font-size: 12px;
+    margin-bottom: 20px;
 }
 .coll h2{
     margin: 25px 0;
@@ -318,7 +319,7 @@ a{
     background: #fff;  
 }
 .prima-coll{
-    width: 28%;
+    width: 29%;
     margin: 2%;
 }
 .prima-coll.sha{
@@ -332,7 +333,7 @@ a{
     background: #fff;
 }
 .seconda-coll{
-    width: 28%;
+    width: 29%;
     margin: 2%;
 }
 .seconda-coll.sha{
@@ -346,7 +347,7 @@ a{
     background: #fff;
 }
 .terza-coll{
-    width: 28%;
+    width: 29%;
     margin: 2%;
 }
 .terza-coll.sha{
